@@ -1,4 +1,8 @@
-.nav{
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
     background-color:rgba(0,173,173,0.16);
     height: 88px;
     width: 1080px;

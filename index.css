@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color:white;
     padding: 0px 48px;
@@ -7,14 +10,12 @@ body{
     padding-top: 24px;
     gap:8px;
     height: 96px;
-    box-sizing:border-box;
 }
 .navBar{
     background-color: #afe6e6;
     width: 100%;
     filter: blur(96);
     height: 100%;
-    box-sizing:border-box;
     color:black;
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,6 @@ body{
     gap: 32px;
     display: flex;
     justify-content: space-around;
-    box-sizing:border-box;
 }
 .navLeft .NL{
     font-size: 17px;
@@ -35,12 +35,10 @@ body{
     justify-content: space-between;
     align-items: center;
     line-height: 24px;
-    box-sizing:border-box;
 }
 .center{
     font-weight: 700px;
     font-size: 42px;
-    box-sizing:border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,5 +46,38 @@ body{
 }
 .container{
     padding: 48px 0px;
-    box-sizing:border-box;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container{
+    padding: 48px 48px;
+}
+.page-1{
+    padding: 96px 96px;
+    gap: 52px;
+    width: 1344px;
+    height: 1036px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading{
+    height: 120px;
+    width: 1344px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    
+}
+.page-1-img{
+    display: flex;
+    height: 672px;
+    justify-content: center;
+    align-items: center;
 }

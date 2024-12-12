@@ -81,3 +81,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+.page-2{
+    width: 100%;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.width{
+    width: 100%;
+}

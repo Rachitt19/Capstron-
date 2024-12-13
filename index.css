@@ -179,3 +179,17 @@ button{
     width: 900px;
     text-align: center;
 }
+.page5txt{
+    font-family: domine;
+    color: rgba(27, 40, 40, 1);
+    font-family: 700;
+    text-align: center;
+    line-height: 120px;
+    font-size: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.page5img{
+    padding-top: 20px;
+    padding-bottom:40px ;
+}

@@ -2,16 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&display=swap');
 *{
     box-sizing: border-box;
+    width: 100%;
 }
 body{
     background-color:white;
     padding: 0px 48px;
     font-family: "Plus Jakarta Sans";
+    width: 100%;
 }
 .header{
     padding-top: 24px;
     gap:8px;
     height: 96px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .navBar{
     background-color: #afe6e6;
@@ -25,6 +35,11 @@ body{
     border-radius: 16px;
     border: 1.5px;
     padding: 24px 32px;
+    box-sizing: border-box;
+
+}
+.navRight{
+    width: auto;
 }
 .navLeft{
     gap: 32px;
@@ -53,14 +68,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 .main-container{
     padding: 48px 48px;
+    width: 100%;
 }
 .page-1{
-    padding: 96px 96px;
     gap: 52px;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,8 +96,10 @@ body{
 .page-1-img{
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .page-2{
     display: flex;
@@ -106,10 +125,6 @@ body{
 .width{
     width: 100%;
 }
-.project-1 ,.project-2 ,.project-3{
-    flex-grow: 1;
-
-}
 .all9images{
     flex-wrap: wrap;
     display: flex;
@@ -118,7 +133,7 @@ body{
 }
 .projimg{
     padding:0px 10px;
-    flex-grow: 1;
+    width: 30%;
 }
 .page3{
     margin-top: 20px;
@@ -206,10 +221,15 @@ button{
     gap:8px;
     color: #D6DDE6;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.eight-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .TextU{
     font-size: 28px;
@@ -264,4 +284,91 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     display: flex;
     gap: 12px;
     padding: 40px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RetroFuturist{
+    font-family: "Domine";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(20, 46, 46, 0.62);;
+}
+.footer_button{
+    background-color: rgba(218, 230, 230, 0.2);
+    width: 168px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 16px;
+    border: 1.5px solid rgba(73, 110, 110, 0.2);
+    font-family: Outfit;
+    color: rgba(27, 40, 40, 1);
+}
+@media (max-width: 850px) {
+
+    .heading {
+        font-size: 72px;
+        line-height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .txt2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .page4txt {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .page5txt {
+        font-size: 50px;
+        line-height: 100px;
+    }
+    .navLeft,.navRight{
+        display: none;
+    }
+
+    .projimg {
+        width: 100%;
+    }
+}
+
+/* Small Screens (Mobile, 480px and below) */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .txt1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .txt2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .page4txt {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .page5txt {
+        font-size: 60px;
+        line-height: 80px;
+    }
 }
